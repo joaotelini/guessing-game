@@ -11,12 +11,12 @@ Um jogo de adivinhação simples onde o objetivo é adivinhar o número gerado a
 
 ## Tecnologias Utilizadas
 
-- JavaScript
+- JavaScript, HTML, CSS
 
 ## Contato
 
-- Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para me contatar:
+Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para me contatar:
 
-Nome: João Pedro Telini
-E-mail: joaotelini03@gmail.com
-GitHub: @joaotelini
+- Nome: João Pedro Telini
+- E-mail: joaotelini03@gmail.com
+- GitHub: @joaotelini
