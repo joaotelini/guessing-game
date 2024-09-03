@@ -11,7 +11,7 @@ Um jogo de adivinhação simples onde o objetivo é adivinhar o número gerado a
 
 ## Tecnologias Utilizadas
 
-- [JavaScript]
+- JavaScript
 
 ## Contato
 
