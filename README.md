@@ -13,7 +13,7 @@ Um jogo de adivinhação simples onde o objetivo é adivinhar o número gerado a
 
 - [JavaScript]
 
-Contato
+## Contato
 
 - Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para me contatar:
 
