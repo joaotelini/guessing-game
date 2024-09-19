@@ -45,10 +45,12 @@ function verificarAcerto(valorInput) {
   } else {
     tentativasHTML.innerHTML = 'Voce errou! Número de tentativas: ' + tentativas
     if (valorInput > numeroSecreto) {
-      dicas.innerHTML = "O número digitado é maior que o número secreto"
+      dicas.innerHTML = "O número digitado é maior que o número secreto ⬆"
+
     }
     else {
-      dicas.innerHTML = "O número digitado é menor que o número secreto"
+      
+      dicas.innerHTML = "O número digitado é menor que o número secreto ⬇" 
     }
   }
 }
