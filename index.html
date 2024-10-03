@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Advinhe o Número</title>
 </head>
+
 <body>
 
   <div class="container">
@@ -13,11 +15,17 @@
     <input placeholder="Digite um número entre 0 e 1000" required type="text" name="input" id="input">
     <br>
     <button onclick="getInput()">Chutar</button>
+    <button class="reset" onclick="resetGame()">Advinhar outro número</button>
     <p id="dicas"></p>
     <p id="tentativas"></p>
     <p id="status"></p>
+    <div class="listaNumeros">
+      <ul id="pNumeroTentados"></ul>
+      <ul id="tentativasSalva"></ul>
+    </div>
   </div>
 
   <script src="app.js"></script>
 </body>
+
 </html>
