@@ -12,7 +12,9 @@ const pNumeroTentados = document.getElementById("pNumeroTentados");
 
 let numeroSecreto = Math.floor(Math.random() * 1001);
 
-// console.log(numeroSecreto);
+let li = document.createElement("li");
+
+console.log(numeroSecreto);
 
 let tentativas = 0;
 
@@ -46,7 +48,9 @@ function resetGame() {
   tentativasArray = []
   limparInput()
   limparText()
-
+  pNumeroTentados.innerHTML = ""
+  li.innerHTML = ""
+  console.log(numeroSecreto);
 }
 
 function verificarAcerto(valorInput) {
@@ -55,14 +59,10 @@ function verificarAcerto(valorInput) {
     limparText();
     status.innerHTML =
       "Parabens você acertou! Numero de tentativas: " + tentativas;
-
-    let li = document.createElement("li");
     pNumeroTentados.innerHTML = "Números tentados: ";
     li.innerHTML = tentativasArray.join(", ");
     tentativasSalva.appendChild(li);
   } else {
-    tentativasHTML.innerHTML =
-      "Voce errou! Número de tentativas: " + tentativas;
     if (valorInput > numeroSecreto) {
       dicas.innerHTML = "O número digitado é maior que o número secreto ⬆";
     } else {
